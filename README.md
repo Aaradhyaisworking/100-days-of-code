@@ -2,16 +2,19 @@
 Following course of Angela Yu titled 100 days of code
 
 Day-1
-Today we worked on band name generator
+Today we worked on band name generator. I learned about Python concepts such as printing, input handling, variables, string concatenation, and formatting to create a functional and user-friendly program.it takes input from users and creates a name for the band.
 
 Day-2
 Today we worked on Tip calculator project.This project helps in  understanding of f-strings, mathematical operations including PEMDAS( Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction), data types, and type conversion. It takes inputs from user  for bill amount , tip percentage and number of people splitting the bill . it calculates the amount and splits it equally. Once completed, you will have a useful tool to split bills among friends accurately.
 
 Day-3
-Today we worked on Treasure island project.
+Today we worked on Treasure island project.Developed a simple Choose Your Own Adventure game using conditional statements.
+Learned to handle user input case sensitivity with the lower() function.
+Utilized multi-line strings with triple single quotes for ASCII art.
+Applied escape characters to include quotes within strings correctly
 
 Day-4 
-Today we worked on the game named Rock, Paper ,Scissors.
+Today we worked on the game named Rock, Paper ,Scissors.This project explains concepts such as lists, randomization, variables, input handling, and conditional logic. Mapping out the logic with a flow diagram can be helpful. The Rock, Paper, Scissors project involves user input, random computer choice, and logic to determine the winner. Testing and debugging throughout development helps catch errors early and ensures correct program behavior.
 
 Day-5 
 Today we worked on 
