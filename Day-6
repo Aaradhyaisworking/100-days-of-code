@@ -9,7 +9,7 @@ def my_function():
    print("Bye")
 
 
-#HURDLES LOOPS CHALLENGE
+#HURDLES LOOPS CHALLENGE(HURDLE 1)
 
 def turn_right():
     turn_left()
@@ -71,7 +71,7 @@ move()
 turn_left()
 
 
-#WHILE LOOPS
+#WHILE LOOPS(HURDLE 2)
 def turn_right():
     turn_left()
     turn_left()
@@ -93,4 +93,23 @@ while number_of_hurdles > 0:
     number_of_hurdles -= 1
     print(number_of_hurdles)
 
-#
+#HURDLE 3
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def jump():   
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+    
+while not at_goal():
+    if wall_in_front():
+        jump()
+    else:
+        move()
