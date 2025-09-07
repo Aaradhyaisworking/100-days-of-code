@@ -21,6 +21,12 @@ Today we worked on Developing a password generator that creates passwords with u
 Implemented an Easy Level password generator that produces passwords with characters in sequence.
 Utilized Python's random.choice() for selecting random characters and random.shuffle() to randomize the password list.
 
+Day-6
+Today we worked on  programming a robot to navigate a maze by following the right edge.
+The robot's starting position and facing direction are randomized, requiring a robust algorithm.
+The main strategy uses a hierarchy: turn right if possible, else move forward, else turn left.
+Edge cases can cause infinite loops; debugging and testing with problem worlds is essential.
+
 
 
 
