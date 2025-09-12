@@ -27,6 +27,12 @@ The robot's starting position and facing direction are randomized, requiring a r
 The main strategy uses a hierarchy: turn right if possible, else move forward, else turn left.
 Edge cases can cause infinite loops; debugging and testing with problem worlds is essential.
 
+Day-7
+Imported lists and variables from external modules to organize code and practice modular programming.
+Enhanced user experience by providing feedback for repeated guesses and incorrect letters.
+Updated the game to display remaining lives and reveal the correct word at the end.
+Encouraged further improvements and experimentation with the Hangman game.
+
 
 
 
