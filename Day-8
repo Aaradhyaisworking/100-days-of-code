@@ -19,4 +19,17 @@ def life_in_weeks(age):
     print(f"You have {weeks_remaining} weeks left.")
 
 
+#POSITIONAL vs KEYWORD ARGUMENTS
+def greet_with(name, location):
+    print(f"Hello {name}")
+    print(f"What is it like in {location}")
+
+
+#greet_with("Jack Bauer","Nowhere") 
+              OR
+greet_with(name="Aaradhya" , location="London")
+
+
 #
+
+
