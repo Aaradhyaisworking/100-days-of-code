@@ -9,3 +9,5 @@ bill_per_person = total_bill/people
 final_amount = round(bill_per_person, 2)
 print(f"each person should pay : ${final_amount}")7
 
+
+
