@@ -33,6 +33,13 @@ Enhanced user experience by providing feedback for repeated guesses and incorrec
 Updated the game to display remaining lives and reveal the correct word at the end.
 Encouraged further improvements and experimentation with the Hangman game.
 
+Day-8
+Imported and printed the Caesar Cipher logo from the art.py file to enhance program presentation.
+Implemented logic to preserve non-alphabetical characters such as numbers, symbols, and spaces during encoding and decoding.
+Added a while loop to allow the program to restart based on user input, enabling multiple encoding or decoding sessions.
+Identified and fixed a crucial bug by moving the shift negation operation outside the for loop to ensure correct decoding behavior.
+
+
 
 
 
