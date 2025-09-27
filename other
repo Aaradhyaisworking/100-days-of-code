@@ -42,3 +42,235 @@ else:
     print("Invalid choice. Please run the program again and the choice 1,2 or 3")
 
 
+#write a program to read an integer and reverse the number.
+
+num = int(input("Enter an integer to reverse: "))
+
+reversed_num = int(str(abs(num))[::-1])
+
+if num < 0:
+    reversed_num *= -1
+
+print(f"The reversed number is: {reversed_num}")
+
+
+#generate the patterns for nested loops:
+
+#pattern-1
+print("Pattern-1")
+rows = 5
+for i in range(1, rows + 1):
+    for j in range(i):
+        print("*", end="")
+    print()
+
+#pattern-2
+print("\nPattern-2")
+rows = 5
+for i in range(rows, 0, -1):
+    for j in range(1, i + 1):
+        print(j, end="")
+    print()
+
+#pattern-3
+print("\nPattern-3")
+rows = 5
+for i in range(1, rows + 1):
+    for j in range(i):
+        print(chr(65 + j), end="")
+    print() 
+
+
+#Write a Program to check if the entered number is Armstrong or not.
+
+num = int(input("Enter a number to check if it's an Armstrong number: "))
+order = len(str(num))
+sum_of_powers = 0
+temp = num
+
+while temp > 0:
+   digit = temp % 10
+   sum_of_powers += digit ** order
+   temp //= 10
+
+if num == sum_of_powers:
+   print(f"{num} is an Armstrong number.")
+else:
+   print(f"{num} is not an Armstrong number.")
+
+
+#Write a program to input the value of x and n and print the sum of the following series:   1 + 𝑥 + 𝑥2 + 𝑥3 + 𝑥4 + ⋯ 𝑥n
+
+x = int(input("Enter the value of x: "))
+n = int(input("Enter the value of n: "))
+
+total_sum = 0
+for i in range(n + 1):
+    total_sum += x**i
+
+print(f"The sum of the series is: {total_sum}")
+
+
+#Write a program to input the value of x and n and print the sum of the following series:
+
+import math
+
+x_val = float(input("Enter the value of x (in radians): "))
+n_terms = int(input("Enter the number of terms: "))
+
+total_sum = 0
+for i in range(n_terms):
+    sign = (-1)**i
+    power = 2 * i + 1
+    term = (x_val**power) / math.factorial(power)
+    total_sum += sign * term
+
+print(f"The sum of the series is: {total_sum}")
+
+
+#Write a program to input a number and check if the number is a prime or composite number.
+num = int(input("Enter a number to check if it's prime: "))
+
+is_prime = True
+
+if num <= 1:
+    is_prime = False
+else:
+    # Check for factors from 2 up to the square root of the number
+    for i in range(2, int(math.sqrt(num)) + 1):
+        if (num % i) == 0:
+            is_prime = False
+            break
+
+if is_prime:
+    print(f"{num} is a prime number.")
+else:
+    # 1 is neither prime nor composite, other numbers are composite
+    if num == 1:
+         print("1 is neither prime nor composite.")
+    else:
+         print(f"{num} is a composite number.")
+
+
+#Write a program to input a number and find its factorial using while loop.
+num = int(input("Enter a number to find its factorial: "))
+
+factorial = 1
+
+if num < 0:
+   print("Factorial does not exist for negative numbers.")
+elif num == 0:
+   print("The factorial of 0 is 1.")
+else:
+   i = num
+   while i > 0:
+       factorial *= i
+       i -= 1
+   print(f"The factorial of {num} is {factorial}.")
+
+
+#Write a program to input marks of five subjects and calculate total & percentage. Also calculate grade of a student as per the following criteria:
+Percentage		Grade
+75 & above		A+
+60-74                   A
+50-59                   B
+40-49                   B+
+33-39                   C
+#Below 33                D
+
+marks = []
+for i in range(5):
+    subject_mark = float(input(f"Enter marks for subject {i+1}: "))
+    marks.append(subject_mark)
+
+total = sum(marks)
+# Assuming each subject is out of 100
+percentage = (total / 500) * 100
+
+grade = ''
+if percentage >= 75:
+    grade = 'A+'
+elif percentage >= 60:
+    grade = 'A'
+elif percentage >= 50:
+    grade = 'B'
+elif percentage >= 40:
+    grade = 'C'
+elif percentage >= 33:
+    grade = 'D'
+else:
+    grade = 'F' # Assuming below 33 is Fail
+
+print(f"\nTotal Marks: {total}")
+print(f"Percentage: {percentage:.2f}%")
+print(f"Grade: {grade}")
+
+
+#Write a program to print the sum of natural numbers between 1 to 20. Print the sum progressively i.e. after adding each natural number, a print sum so far.
+
+progressive_sum = 0
+for i in range(1, 21):
+    progressive_sum += i
+    print(f"Added {i}, the sum is now: {progressive_sum}")
+
+
+#Write a Python script to print Fibonacci series’ first 20 elements.
+
+n1, n2 = 0, 1
+count = 0
+
+print("First 20 elements of the Fibonacci sequence:")
+
+while count < 20:
+    print(n1, end="  ")
+    nth = n1 + n2
+    n1 = n2
+    n2 = nth
+    count += 1
+print() 
+
+
+#Write a program to calculate BMI and print the nutritional status as per the following table:
+Nutritional Status     WHO criteria BMI
+                                       cut-off
+
+Underweight               <18.5
+Normal                         18.5-24.9
+Overweight                  25-29.9
+Obese                          ≥30
+
+weight = float(input("Enter your weight in kilograms (kg): "))
+height = float(input("Enter your height in meters (m): "))
+
+bmi = weight / (height ** 2)
+
+status = ""
+if bmi < 18.5:
+    status = "Underweight"
+elif 18.5 <= bmi <= 24.9:
+    status = "Normal"
+elif 25 <= bmi <= 29.9:
+    status = "Overweight"
+else: # bmi >= 30
+    status = "Obese"
+
+print(f"\nYour BMI is: {bmi:.2f}")
+print(f"Your nutritional status is: {status}")
+
+
+#Write a program to calculate and print the roots of a quadratic equation ax²+bx+c=0.(a≠0)
+
+import cmath # Using cmath to handle complex roots easily
+
+a = float(input("Enter coefficient a: "))
+b = float(input("Enter coefficient b: "))
+c = float(input("Enter coefficient c: "))
+
+# Calculate the discriminant
+discriminant = (b**2) - (4*a*c)
+
+# Find two solutions
+root1 = (-b - cmath.sqrt(discriminant)) / (2 * a)
+root2 = (-b + cmath.sqrt(discriminant)) / (2 * a)
+
+print(f"\nThe roots are:\nRoot 1 = {root1}\nRoot 2 = {root2}")
