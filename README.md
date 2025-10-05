@@ -46,4 +46,8 @@ The program loops to collect bids until there are no more bidders, then determin
 A function is used to find and print the winner with the highest bid from the dictionary.
 
 Day-10
+Built a calculator program that performs addition, subtraction, multiplication, and division using functions and a dictionary.
+Learned to store functions as values in variables and dictionaries, enabling dynamic operation selection.
+Implemented user interaction with input prompts, looping, and recursion to allow continuous calculations or starting new ones.
+Enhanced the calculator with a logo and formatted output for a professional user experience.
 
