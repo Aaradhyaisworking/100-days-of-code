@@ -51,3 +51,12 @@ Learned to store functions as values in variables and dictionaries, enabling dyn
 Implemented user interaction with input prompts, looping, and recursion to allow continuous calculations or starting new ones.
 Enhanced the calculator with a logo and formatted output for a professional user experience.
 
+Day-11
+Created a compare() function to determine the game outcome by comparing user and computer scores.
+Utilized if, elif, and else statements carefully to handle all game scenarios including Blackjack and draws.
+Employed variable renaming to avoid shadowing and improve code clarity using refactoring tools.
+Implemented a game loop allowing users to play multiple rounds with console clearing and logo display for a polished user experience.
+
+Day-12
+
+
