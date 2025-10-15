@@ -78,3 +78,18 @@ Choosing a random number between 1 and 100.
 Tracking the number of attempts and reducing it after each incorrect guess.
 Repeating the guessing process until the user wins or runs out of attempts.
 
+Day-13
+Debugging.
+Taking breaks during debugging can significantly improve problem-solving clarity.
+Running code frequently helps isolate bugs early and simplifies troubleshooting.
+Collaborating with peers provides fresh perspectives that can reveal overlooked issues.
+Stack Overflow is a valuable resource when unique or complex bugs arise, but should be used judiciously.
+
+Day-14
+Higher or lower project.
+Breaking down large problems into smaller, manageable tasks is essential for effective programming.
+Structuring code with reusable functions improves clarity and maintainability.
+Using control flow, such as loops and conditionals, enables repeatable and interactive gameplay.
+Regularly testing code after solving each subproblem helps catch errors early and ensures correct functionality.
+
+
