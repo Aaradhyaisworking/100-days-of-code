@@ -92,4 +92,11 @@ Structuring code with reusable functions improves clarity and maintainability.
 Using control flow, such as loops and conditionals, enables repeatable and interactive gameplay.
 Regularly testing code after solving each subproblem helps catch errors early and ensures correct functionality.
 
+Day-15
+Coffee Machine Project.
+There are multiple valid approaches to building the Coffee Machine program, and different structures are acceptable as long as requirements are met.
+The program uses a loop to continually prompt the user for input, allowing for commands like 'off' to exit and 'report' to display resources.
+Functions are created for checking resources, processing coins, validating transactions, and making coffee, each handling a specific part of the logic.
+The code demonstrates best practices such as using f-strings, handling global variables, and providing user feedback for insufficient resources or funds.
+
 
